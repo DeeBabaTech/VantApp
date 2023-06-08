@@ -104,7 +104,7 @@ function Body() {
                             <div className="flex-col">
                                 <h5 className="font-bold text-2xl">Insured</h5>
                                 <p className="my-2">Deposits on our platform are NDIC insured</p>
-                                <img src={ndic} alt="" />
+                                <img src={ndic} alt="" className='w-24 md:w-full'/>
                             </div>
                         </div>
                         <div className="flex md:w-[33%] mb-10 md:mb-0">
@@ -113,7 +113,7 @@ function Body() {
                             </div>
                             <div className="flex-col">
                                 <h5 className="font-bold text-2xl">Regulated</h5>
-                                <p className="my-2">Vant is regulated by the NCSC - Nigerian Co-operative Societies Act</p>
+                                <p className="-2">Vant is regulated by the NCSC - Nigerian Co-operative Societies Act</p>
                                 {/* <img src={ndic} alt="" /> */}
                             </div>
                         </div>
@@ -124,7 +124,7 @@ function Body() {
                             <div className="flex-col">
                                 <h5 className="font-bold text-2xl">Recognized</h5>
                                 <p className="my-2">Vant is recognized member of FinTech Association of Nigeria</p>
-                                <img src={fintech} alt="" />
+                                <img src={fintech} className='w-32 md:w-full' alt="" />
                             </div>
                         </div>
                     </div>
